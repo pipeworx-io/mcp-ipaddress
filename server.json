@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/ipaddress",
   "title": "Ipaddress",
   "description": "IP address utilities MCP.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/ipaddress",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ipaddress",
