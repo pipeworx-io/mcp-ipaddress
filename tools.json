@@ -1,0 +1,34 @@
+[
+  {
+    "name": "parse_ip",
+    "description": "Validate and classify an IP address (IPv4 or IPv6): version, validity, and classification (private/loopback/link-local/multicast/reserved/public). IPv4 also returns its 32-bit integer. Keyless, offline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "ip": {
+          "type": "string",
+          "description": "An IPv4 or IPv6 address, e.g. \"192.168.1.10\" or \"2001:db8::1\"."
+        }
+      },
+      "required": [
+        "ip"
+      ]
+    }
+  },
+  {
+    "name": "cidr_info",
+    "description": "Parse an IPv4 CIDR block (e.g. \"192.168.1.0/24\") and compute the network address, broadcast, netmask, wildcard, usable host range and host count. Keyless, offline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "cidr": {
+          "type": "string",
+          "description": "An IPv4 CIDR, e.g. \"10.0.0.0/8\"."
+        }
+      },
+      "required": [
+        "cidr"
+      ]
+    }
+  }
+]
