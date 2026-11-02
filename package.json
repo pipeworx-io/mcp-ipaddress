@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ipaddress",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "IP address utilities MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "ipaddress",
     "gatewaySlug": "ipaddress",
-    "sourceHash": "v1-323f73018bc14583c8bb1b137ce7e4661cfe3cd1b108c3ba0f6464679abe6261",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-5af8e214b496c0067570f9642a4550cc1f59cb206f3a1fbe0d90787cfabd4371",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
